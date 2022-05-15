@@ -5,6 +5,7 @@
 }
 .container {
   height: 90%;
+  flex-wrap: wrap;
 }
 .button {
   margin-top: 2%;

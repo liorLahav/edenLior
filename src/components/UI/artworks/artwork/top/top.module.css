@@ -16,8 +16,11 @@
   width: 90%;
   margin-bottom: 25%;
 }
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1025px) {
   .top {
     background-color: white;
+  }
+  .top img:last-child {
+    width: 100%;
   }
 }

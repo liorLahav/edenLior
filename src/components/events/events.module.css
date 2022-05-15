@@ -16,7 +16,7 @@
 }
 .textHolder {
   position: absolute;
-  top: 35%;
+  top: 50%;
   left: 2%;
   width: 40%;
   color: white;
@@ -45,4 +45,18 @@
 .eventButton {
   width: 30%;
   padding: 2% 1%;
+}
+@media screen and (max-width: 1025px) {
+  .textHolder {
+    top: 10%;
+  }
+  .textHolder h3 {
+    font-size: 0.9rem;
+  }
+  .textHolder p {
+    font-size: 0.75rem;
+  }
+  .eventButton {
+    width: 50%;
+  }
 }

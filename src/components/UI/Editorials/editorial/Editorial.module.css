@@ -37,3 +37,10 @@
   color: black;
   font-weight: normal;
 }
+@media screen and (max-width: 1025px) {
+  .Editorial {
+    width: 100%;
+    background-color: rgb(204, 203, 203);
+    margin-bottom: 10%;
+  }
+}

@@ -1,5 +1,6 @@
 .list {
   list-style-type: none;
+  width: 20%;
 }
 .list ul {
   font-size: 1rem;
@@ -10,4 +11,9 @@
 }
 .lastItem {
   font-weight: bold;
+}
+@media screen and (max-width: 1025px) {
+  .list ul {
+    font-size: 0.7rem;
+  }
 }

@@ -1,0 +1,48 @@
+.subscribe {
+  background-image: url("https://srv-2.eden-gallery.com/wp-content/uploads/sites/15/2021/05/31104049/background-newsletter.jpg");
+
+  background-size: 100% 100%;
+  margin-top: 5%;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.subscribe p {
+  height: 5%;
+  width: 100%;
+}
+.subscribeForm {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.subscribeForm input {
+  width: 45%;
+  padding: 4% 1%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  border-radius: 3px;
+  border: none;
+  outline-width: thick;
+}
+.subscribeForm input:focus {
+  outline-color: rgb(64, 151, 244);
+}
+.subscribeForm input[type="email"] {
+  width: 100%;
+}
+.subscribeForm button {
+  width: 50%;
+  height: 35%;
+  background-color: black;
+  margin-top: 5%;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: clamp(1rem, 1.25vw, 1.8rem);
+  font-weight: 500;
+  margin-left: 1%;
+}
+.button:hover {
+  color: red;
+}

@@ -1,0 +1,27 @@
+.bottomHeader {
+  width: 100%;
+  height: 7vh;
+  display: none;
+  justify-content: center;
+  z-index: 1000;
+  background-color: white;
+}
+.bottomHeaderTravel {
+  position: fixed;
+  top: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bottomHeader div {
+  width: 60%;
+  justify-content: flex-end;
+}
+.bottomHeader img {
+  width: clamp(100px, 20%, 150px);
+  margin-right: 15%;
+  margin-left: 0%;
+}
+@media screen and (min-width: 1025px) {
+  .bottomHeader {
+    display: flex;
+  }
+}

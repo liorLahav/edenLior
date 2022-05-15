@@ -1,0 +1,5 @@
+.header {
+  width: 100vw;
+  height: clamp(50px, 10vh, 150px);
+  margin-bottom: 6%;
+}

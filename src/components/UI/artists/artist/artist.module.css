@@ -1,0 +1,20 @@
+.artist {
+  height: 100%;
+  width: 14.5%;
+  color: white;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
+  transition: 0.5s all ease-out;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.artist:hover {
+  width: 70%;
+}
+.artist p {
+  margin-bottom: 10vh;
+  font-size: clamp(1rem, 1vw, 2rem);
+}

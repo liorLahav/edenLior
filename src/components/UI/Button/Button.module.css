@@ -1,0 +1,26 @@
+.ButtonBase {
+  border: 1px solid;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+.dark {
+  border-color: white;
+  background-color: rgba(0, 0, 0, 0.581);
+  color: white;
+}
+.dark:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+.light {
+  background-color: transparent;
+  color: black;
+  border-color: black;
+}
+.light:hover {
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,13 @@
+.artworks {
+  width: 90%;
+  background-color: white;
+}
+.Conatiner {
+  flex-wrap: wrap;
+}
+.button {
+  width: 20%;
+  padding: 1% 1%;
+  margin-left: 80%;
+  margin-top: 2%;
+}

@@ -1,0 +1,5 @@
+.heartButton {
+  width: clamp(20px, 2.5%, 50px);
+  cursor: pointer;
+  margin-right: 2%;
+}

@@ -1,0 +1,48 @@
+.photoBar {
+  width: 90%;
+  height: 60vh;
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  margin-top: 5%;
+}
+.photoBar::-webkit-scrollbar {
+  background: #888;
+  height: 5px;
+  cursor: pointer;
+}
+.photoBar::-webkit-scrollbar-thumb {
+  background-color: dimgray;
+}
+
+.arrowContainer {
+  width: 4%;
+  position: sticky;
+  top: 91%;
+  left: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+.arrowContainer img {
+  width: 30%;
+  cursor: pointer;
+  filter: brightness(200%);
+}
+.arrowContainer img:hover {
+  filter: brightness(100%);
+}
+.button {
+  width: 20%;
+  margin-left: 70%;
+  margin-top: 2%;
+  padding: 1% 1%;
+}
+@media screen and (max-width: 1025px) {
+  .photoBar,
+  .button {
+    display: none;
+  }
+}

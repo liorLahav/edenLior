@@ -1,0 +1,13 @@
+.list {
+  list-style-type: none;
+}
+.list ul {
+  font-size: 1rem;
+  cursor: pointer;
+}
+.list ul:hover {
+  color: #c3071c;
+}
+.lastItem {
+  font-weight: bold;
+}

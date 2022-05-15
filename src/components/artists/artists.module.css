@@ -1,0 +1,25 @@
+.artists {
+  width: 90%;
+  height: 80vh;
+  margin-left: 2%;
+  margin-bottom: 8%;
+}
+.container {
+  height: 90%;
+  flex-wrap: nowrap;
+}
+
+.artistsContainer div:hover .artistsContainer div:not(:hover) {
+  width: 5%;
+}
+.button {
+  margin-left: 80%;
+  margin-top: 2%;
+  width: 15%;
+  padding: 1% 1%;
+}
+@media screen and (max-width: 1025px) {
+  .artists {
+    display: none;
+  }
+}

@@ -1,0 +1,12 @@
+.section {
+}
+.section h2 {
+  font-weight: 300;
+  margin-right: 90%;
+  color: black;
+}
+.Container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

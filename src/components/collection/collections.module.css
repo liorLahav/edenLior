@@ -1,0 +1,15 @@
+.section {
+  width: 90%;
+  height: 7%;
+  background-image: black;
+  color: white;
+}
+.container {
+  height: 90%;
+}
+.button {
+  width: 20%;
+  margin-top: 2%;
+  margin-left: 80%;
+  padding: 1% 1%;
+}

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: TT Hoves Regular;
+  src: url(./fonts/TT\ Hoves\ Regular.otf);
+}
+
+body {
+  margin: 0;
+  font-family: TT Hoves Regular;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
